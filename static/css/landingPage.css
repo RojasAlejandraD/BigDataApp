@@ -1,0 +1,24 @@
+
+body {
+    background: linear-gradient(to right, #800080, #D8BFD8); /* Morado oscuro a Morado claro */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1rem 0;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+footer {
+    background-color: rgba(128, 0, 128, 0.9); /* Morado oscuro */
+    padding: 1rem 0;
+    margin-top: 2rem;
+    color: #666;
+}
+    

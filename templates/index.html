@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigData-MiProyecto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="{{ url_for('static', filename='css/landingPage.css') }}" rel="stylesheet">
+    <style>
+        body {
+            background-color: hwb(0 94% 6%); /* Fondo general gris claro */
+        }
+        .header {
+            background-color: #f8f9fa; /* Fondo claro para el header */
+            padding: 10px 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .header .nav-link {
+            color: #800080 !important; /* Morado oscuro para los enlaces del header */
+        }
+        .jumbotron {
+            background-color: #e0b0ff; /* Fondo morado para el cuadro principal */
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+        .jumbotron h1 {
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+            border-top: 1px solid #dee2e6;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="h3 mb-0">Mi Proyecto</h1>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link" href="/buscador">Buscador</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/about">Acerca de</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/login">Ingresar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Proyecto de BigData</h1>
+            <p class="lead text-center">Para la Maestría de Analítica de Datos</p>
+        </div>
+    </div>
+
+    <footer class="footer text-center">
+        <p class="mb-0">Creado por Alejandra Rojas Diaz</p>
+        <p class="mb-0">2025</p>
+        <p class="mb-0">Versión Mayo 2025</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

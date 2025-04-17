@@ -1,0 +1,32 @@
+body {
+     background: linear-gradient(to right, #BE93D4, #e0c8f5); 
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgba(99, 66, 116, 0.9); /* Un morado oscuro y profundo */
+    padding: 1rem 0;
+    color: white; 
+}
+
+.container {
+    background-color: rgba(186, 130, 219, 0.9); /* Lila medio */
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    color: #333; /* Un gris oscuro para el texto dentro del contenedor para buena legibilidad */
+}
+
+footer {
+    background-color: rgba(147, 112, 219, 0.9); /* MediumPurple con transparencia */
+    padding: 1rem 0;
+    margin-top: 2rem;
+    color: white; /* Texto blanco para el pie de página */
+}
+
+.nav-link, h1, h2, h3, h6 {
+    color: white; 
+}
+
